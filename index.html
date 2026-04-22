@@ -11,12 +11,15 @@
             background-attachment: fixed;
             margin: 0;
         }
-       .zebra {
-  transition: transform 0.2s ease-in-out;
-}
-.zebra:hover {
-  transform: scale(1.1); 
-}
+     .zebra-link {
+    display: inline-block;      
+    transition: transform 0.2s; 
+    text-decoration: none;     
+  }
+ .zebra-link:hover {
+    transform: scale(1.1);      
+    cursor: pointer;            
+  }
           .striped {
   transition: transform 0.2s ease-in-out;
 }
@@ -79,9 +82,10 @@ div.scroll-container img {
   Ready for the confessions of the 7 closet items? Look below and slowly scroll left to click on each item to find out!
 </p>
    <div class="scroll-container">
-      <a href="https://phasouk2.github.io/homepage/zebra.html" class="zebra">
-  <img src="zebraset.png" alt="Sixxta Zebra Set" width="600" height="400">
+      <a href="zebra-confessions.html" class="zebra-link">
+  <img src="zebra.png" alt="Zebra Outfit" width="600" height="400" class="zebra-img">
 </a>
+
   <img src="saylordress.png" alt="Saylor Striped Dress" width="300" height="450" class="striped">
   <img src="farmriodress.png" alt="Farm Rio Eyelet Dress" width="300" height="450" class="blush">
   <img src="alemais.png" alt="Alemais Floral Dress" width="300" height="450" class="floral">
